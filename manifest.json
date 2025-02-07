@@ -4,7 +4,29 @@
     "version": "1.0",
     "manifest_version": 3,
     "action": {
-      "default_popup": "index.html",
-      "default_icon": "icon.png"
-    }
-  }
+        "default_popup": "index.html",
+        "default_icon": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/index.js"
+            ],
+            "matches": [
+                "https://developer.chrome.com/docs/extensions/*",
+                "https://developer.chrome.com/docs/webstore/*"
+            ]
+        }
+    ],
+    "permissions": [
+        "activeTab",
+        "storage",
+        "scripting",
+        "tabs",
+        "webNavigation",
+        "webRequest",
+        "webRequestBlocking",
+        "clipboardWrite",
+        "clipboardRead"
+    ]
+}
