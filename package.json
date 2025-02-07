@@ -1,0 +1,23 @@
+{
+  "name": "extension-format-branch-text",
+  "version": "1.0.0",
+  "description": "",
+  "main": "clipboard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robdcon/extension-format-branch-text.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robdcon/extension-format-branch-text/issues"
+  },
+  "homepage": "https://github.com/robdcon/extension-format-branch-text#readme",
+  "dependencies": {
+    "chrome-types": "^0.1.337",
+    "typescript": "^5.7.3"
+  }
+}
